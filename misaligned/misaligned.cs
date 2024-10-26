@@ -42,7 +42,7 @@ namespace MisalignedSpace
         static void Main(string[] args)
         {
             ColorMap colorMap = new ColorMap();
-            int result = colorMap.PrintColorMaps();
+            int result = colorMap.PrintColorMap();
             RunTests(colorMap, result);
             Console.WriteLine("All tests completed (check for expected failures).\n");
         }
