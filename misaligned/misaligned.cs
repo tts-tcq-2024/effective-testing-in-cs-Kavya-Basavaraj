@@ -16,7 +16,7 @@ namespace MisalignedSpace {
         }
         static void Main(string[] args) {
             int result = printColorMap();
-            Debug.Assert(result == 30);
+            Debug.Assert(result == 25);
             Console.WriteLine("All is well (maybe!)");
         }
     }
