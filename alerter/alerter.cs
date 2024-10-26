@@ -8,7 +8,7 @@ namespace AlerterSpace {
             // Return 200 for ok
             // Return 500 for not-ok
             // stub always succeeds and returns 200
-            return 200;
+            return 100;
         }
         static void alertInCelcius(float farenheit) {
             float celcius = (farenheit - 32) * 5 / 9;
