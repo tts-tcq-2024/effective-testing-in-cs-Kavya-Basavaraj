@@ -7,8 +7,8 @@ namespace MisalignedSpace {
             string[] majorColors = {"White", "Red", "Black", "Yellow", "Violet"};
             string[] minorColors = {"Blue", "Orange", "Green", "Brown", "Slate"};
             int i = 0, j = 0;
-            for(i = 0; i < 5; i++) {
-                for(j = 0; j < 5; j++) {
+            for(i = 0; i < 6; i++) {
+                for(j = 0; j < 6; j++) {
                     Console.WriteLine("{0} | {1} | {2}", i * 6 + j, majorColors[i], minorColors[i]);
                 }
             }
