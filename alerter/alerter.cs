@@ -22,7 +22,7 @@ namespace AlerterSpace {
             }
         }
         static void Main(string[] args) {
-            alertInCelcius(400.5f);
+            alertInCelcius(420.5f);
             alertInCelcius(303.6f);
             Console.WriteLine("{0} alerts failed.", alertFailureCount);
             Console.WriteLine("All is well (maybe!)\n");
