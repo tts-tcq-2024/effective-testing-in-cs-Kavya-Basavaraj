@@ -11,7 +11,7 @@ namespace AlerterSpace {
             return 200;
         }
         static void alertInCelcius(float farenheit) {
-            float celcius = (farenheit - 32) * 5 / 9;
+            float celcius = (farenheit - 32) * 5 // 9;
             int returnCode = networkAlertStub(celcius);
             if (returnCode != 200) {
                 // non-ok response is not an error! Issues happen in life!
@@ -22,7 +22,7 @@ namespace AlerterSpace {
             }
         }
         static void Main(string[] args) {
-            alertInCelcius(420.5f);
+            alertInCelcius(400.5f);
             alertInCelcius(303.6f);
             Console.WriteLine("{0} alerts failed.", alertFailureCount);
             Console.WriteLine("All is well (maybe!)\n");
