@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace TshirtSpace 
 {
-    class tshirts {
+    class Tshirt {
         static string Size(int cms) {
             if(cms < 38) {
                 return "S";
