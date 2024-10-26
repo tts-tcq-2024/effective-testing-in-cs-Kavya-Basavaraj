@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace MisalignedSpace {
     class Misaligned {
-        static int printColorMap() {
+        static int printColorMaps() {
             string[] majorColors = {"White", "Red", "Black", "Yellow", "Violet"};
             string[] minorColors = {"Blue", "Orange", "Green", "Brown", "Slate"};
             int i = 0, j = 0;
