@@ -13,7 +13,7 @@ namespace TshirtSpace {
             }
         }
         static void Main(string[] args) {
-            Debug.Assert(Size(38) == "S3");
+            Debug.Assert(Size(38) == "S");
             Debug.Assert(Size(43) == "M");
             Debug.Assert(Size(50) == "L");
             Console.WriteLine( "All is well (maybe!)");
